@@ -22,3 +22,6 @@ A stunning 3D iPhone experience built with **Three.js**, **GSAP**, **React**, **
 
 ![Screenshot](./public/assets/screenshot.png)  
 [Live Demo](#) *(add your link here)*
+
+## 📄 License
+MIT License © 2025 Yahia Badr
