@@ -20,7 +20,7 @@ A stunning 3D iPhone experience built with **Three.js**, **GSAP**, **React**, **
 
 ## 📸 Preview
 
-![Screenshot](./public/assets/screenshot.png)  
+![Screenshot](./public/assets/images/screenshot.png)  
 [Live Demo](http://iphone3d-1.web.app)
 
 ## 📄 License
