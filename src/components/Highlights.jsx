@@ -1,6 +1,6 @@
 import React from 'react'
 import { rightImg, watchImg } from '../utils'
-import VideoCarousel from './videoCarousel'
+import VideoCarousel from './VideoCarousel'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { animateWithGsap } from '../utils/animation'
