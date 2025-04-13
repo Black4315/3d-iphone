@@ -38,7 +38,7 @@ const HowItWorks = () => {
 
   return (
     <section className='common-padding'>
-      <div className="screen-max-width">
+      <div className="screen-max-width overflow-hidden">
             <div id="chip" className='flex-center w-full my-20'>
                 <img src={chipImg}  alt="chip" width={180} height={180} />
             </div>
@@ -59,7 +59,7 @@ const HowItWorks = () => {
                         <img src={frameImg} alt="frame" className='bg-transparent z-10 relative' />
                     </div>
 
-                    <div className='absolute w-[95%] rounded-[56px] h-[90%] overflow-hidden'>
+                    <div className='absolute w-[95%] rounded-[5vw] md:rounded-[56px] h-[90%] overflow-hidden'>
                         <video className="pointer-events-none" playsInline preload="none" muted autoPlay ref={videoRef}>
                             <source src={frameVideo} type="video/mp4" />
                         </video>
