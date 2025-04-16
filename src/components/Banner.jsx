@@ -16,7 +16,9 @@ const Banner = () => {
 
   // reload video
   useEffect(() => {
-    if (video.current) { video.current.load();  // Reload the video
+    if (video.current) { 
+      video.current.load();  // Reload the video
+      video.current.addEventListener('canplay',() => video.current.play()); // Play the video when it can play
     }
   }, [videoSrc]);  // This effect runs whenever `videoSrc` changes
 

@@ -9,6 +9,7 @@ body {
   border-color: #3b3b3b;
   user-select: none;
   color-scheme: dark;
+  
 }
 /* @tailwind base;
 @tailwind components;
@@ -17,6 +18,7 @@ body {
  * {
   /* margin: 0;
   padding: 0; */
+  scroll-behavior: smooth;
   box-sizing: border-box;
   }
   
