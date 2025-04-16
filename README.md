@@ -23,5 +23,10 @@ A stunning 3D iPhone experience built with **Three.js**, **GSAP**, **React**, **
 ![Screenshot](./public/assets/images/screenshot.png)  
 [Live Demo](http://iphone3d-1.web.app)
 
+## 🧑‍💻 Let's Work Together
+
+I’m open for custom projects and freelance work!  
+📩 Reach me at **[yahialord4315@gmail]** or check out my **[portfolio](https://portfolio25-one.vercel.app/)**.
+
 ## 📄 License
 MIT License © 2025 Yahia Badr
