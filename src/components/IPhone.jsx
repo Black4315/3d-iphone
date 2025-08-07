@@ -1,7 +1,5 @@
 import { useEffect, useMemo } from 'react';
 import { useGLTF } from '@react-three/drei';
-import { useEffect, useMemo } from 'react';
-import { useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
 
 function IPhone({ item, ...props }) {
