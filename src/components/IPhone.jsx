@@ -1,6 +1,7 @@
-import React, { useEffect, useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import { useGLTF } from '@react-three/drei';
-import { useLoader } from '@react-three/fiber';
+import { useEffect, useMemo } from 'react';
+import { useGLTF } from '@react-three/drei';
 import * as THREE from 'three';
 
 function IPhone({ item, ...props }) {

@@ -17,20 +17,20 @@ const Modelview = ({ index, groupRef, gsaptype, controlRef, setRotation, item, s
             <PerspectiveCamera makeDefault position={[0, 0, 3.7]} />
 
             <Lights />
-            <OrbitControls 
-                makeDefault 
-                ref={controlRef} 
-                enableZoom={false} 
-                rotateSpeed={0.4} 
-                target={new THREE.Vector3(0,0,0)}
-                onEnd={()=>setRotation(controlRef.current.getAzimuthalAngle())}
+            <OrbitControls
+                makeDefault
+                ref={controlRef}
+                enableZoom={false}
+                rotateSpeed={0.4}
+                target={new THREE.Vector3(0, 0, 0)}
+                onEnd={() => setRotation(controlRef.current.getAzimuthalAngle())}
             />
-            <group  ref={groupRef} name ={index==1?'small':'large'} position={[0,0,0]}>
+            <group ref={groupRef} name={index == 1 ? 'small' : 'large'} position={[0, 0, 0]}>
                 <Suspense fallback={<Loader />}>
-                    <IPhone 
-                        scale= {index==1?[15,15,15]:[17,17,17]}
-                        item = {item}
-                        size = {size}
+                    <IPhone
+                        scale={index == 1 ? [15, 15, 15] : [17, 17, 17]}
+                        item={item}
+                        size={size}
                     />
                 </Suspense>
             </group>

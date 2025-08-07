@@ -4,7 +4,6 @@ import {
     highlightFirstVideo,
     highlightFourthVideo,
     highlightSecondVideo,
-    highlightThirdVideo,
     whiteImg,
     yellowImg,
   } from "../utils";
